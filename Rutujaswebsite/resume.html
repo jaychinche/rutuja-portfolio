@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Resume -Rutuja Bootstrap Template</title>
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* Styling for the button */
+    .btn-download-resume {
+      display: inline-block;
+      padding: 15px 40px;
+      background-color: #007bff;  /* Blue color */
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50px;
+      transition: background-color 0.3s, transform 0.2s;
+      margin: 20px auto;
+      box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3); /* Soft shadow */
+      display: block;  /* Makes sure the button is a block-level element */
+      max-width: 250px; /* Ensure the button doesn't get too wide */
+      width: 100%;
+    }
+
+    /* Hover effect */
+    .btn-download-resume:hover {
+      background-color: #0056b3;
+      transform: translateY(-2px);  /* Slight lift effect */
+    }
+
+    /* Active state effect */
+    .btn-download-resume:active {
+      background-color: #004085;
+      transform: translateY(0);
+    }
+
+    /* Ensure content is centered */
+    .center-button {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body class="resume-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">Rutuja</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="resume.html" class="active">Resume</a></li>
+          <li><a href="services.html">Projects</a></li>
+          
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+      </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Rutuja Kaspate</h4>
+              <p><em>Seeking a career as a software developer where I can use my skills in software development. Eager to apply program management experience towards supporting a reputed company's goal within the industry. Enhance skills in front-end and back-end development, contribute to innovative projects, and gain hands-on experience in a collaborative environment.</em></p>
+            </div><!-- End Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Diploma in Computer Engineering</h4>
+              <h5>2020 - 2023</h5>
+              <p><em>Government Residential Women's Polytechnic, Latur, Maharashtra</em></p>
+              <ul>
+                <li>Secured a percentage of 92%</li>
+                <li>Completed Projects using C, C++, Java, PHP, JavaScript, Advanced Java, HTML, CSS.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor's of Technology, Computer Engineering</h4>
+              <h5>2023 - 2026</h5>
+              <p><em>Pimpri Chinchwad College of Engineering, Pune (Affiliated to Pune University)</em></p>
+              <ul>
+                <li>Secured a CGPA of 7.42.</li>
+                <li>Completed Projects using Java, Advanced Java, C, C++, Python.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+              <h4>Student Management System</h4>
+              <h5>March - April 2024</h5>
+              <p><em>Created this application using Java, Advanced Java, DBMS.</em></p>
+              <ul>
+                <li>Managed the data of students.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Voting System for Wing Commander</h4>
+              <h5>March - May 2023</h5>
+              <p><em>Using PHP, HTML, CSS.</em></p>
+              <ul>
+                <li>Used to organize data of hostellers.</li>
+                <li>Used for managing data of Wing Commander and Voters.</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Tourism Website</h4>
+              <h5>October - November 2022</h5>
+              <p><em>Created this Website using HTML, CSS.<br>Promote destinations and enhance visitor experiences</em></p>
+            </div><!-- End Resume Item -->
+<br>
+                <p><b>If you want to see resume <br> CLICK HERE !</b></p>
+            <!-- New Button for downloading the resume -->
+            <div class="container text-center">
+              <a href="assets/resume.pdf" class="btn-download-resume">Download Resume</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Rutuja</strong> <span>All Rights Reserved<br></span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/k_rutu_2441?igsh=MXdtYjBjbWoxejF3dQ=="><i class="bi bi-instagram"></i></a>
+        <a href="www.linkedin.com/in/
+rutuja-kaspate-278413282"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
